@@ -1,0 +1,44 @@
+* {
+    margem :  0 ;
+    preenchimento :  0 ;
+}
+
+# jogo {
+    largura :  500 px ;
+    altura :  200 px ;
+    borda :  preto sólido de 1 px ;
+}
+
+# personagem {
+    largura :  20 px ;
+    altura :  50 px ;
+    cor de fundo : azul;
+    posição : relativa;
+    topo :  150 px ;
+}
+
+. animar {
+    animação : personagem 500 ms infinito;
+}
+
+@keyframes personagem {
+    0 % { topo :  150 px ;}
+    30 % { topo :  100 px ;}
+    70 % { topo :  100 px ;}
+    100 % { superior :  150 px ;}
+}
+
+# quadrado {
+    largura :  20 px ;
+    altura :  20 px ;
+    cor de fundo : amarelo;
+    posição : relativa;   
+    topo :  130 px ;
+    esquerda :  480 px ;
+    animação : quadrado 1 s linear infinito;
+}
+
+@keyframes quadrado {
+    0 % { esquerda :  480 px ;}
+    100 % { esquerda :  -40 px ;}
+}
